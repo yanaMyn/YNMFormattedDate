@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/YNMFormattedDate.svg?style=flat)](https://cocoapods.org/pods/YNMFormattedDate)
 [![Platform](https://img.shields.io/cocoapods/p/YNMFormattedDate.svg?style=flat)](https://cocoapods.org/pods/YNMFormattedDate)
 
+How to convert format date, example from dd/MM/YYYY to MMM dd, yyyy
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -19,7 +21,14 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'YNMFormattedDate'
 ```
+# Usage
+```swift
+import YNFormattedDate
 
+var formatDate = YNFormattedDate()
+let dateNow = self.formatDate.formattedDateFromString(dateFormat: "dd/MM/yyyy", dateString: "24/06/2018", withFormat: "MMM dd, yyyy")
+print("today is => \(String(describing: dateNow))")
+```
 ## Author
 
 killme3, requiem_murder@yahoo.com
