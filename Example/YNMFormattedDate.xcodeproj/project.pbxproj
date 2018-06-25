@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		05CCC8B661A9FCBB8514A2D2 /* Pods-YNMFormattedDate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNMFormattedDate_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YNMFormattedDate_Example/Pods-YNMFormattedDate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		27A28E32A315308AFB7AED74 /* Pods-YNMFormattedDate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNMFormattedDate_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YNMFormattedDate_Example/Pods-YNMFormattedDate_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		460EF34232A8F51348CEAD77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		59502CC56AB94C4049FB9FD4 /* YNMFormattedDate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YNMFormattedDate.podspec; path = ../YNMFormattedDate.podspec; sourceTree = "<group>"; };
+		460EF34232A8F51348CEAD77 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		59502CC56AB94C4049FB9FD4 /* YNMFormattedDate.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YNMFormattedDate.podspec; path = ../YNMFormattedDate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* YNMFormattedDate_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YNMFormattedDate_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		745E898953CC793C24096FA0 /* Pods-YNMFormattedDate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNMFormattedDate_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YNMFormattedDate_Tests/Pods-YNMFormattedDate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A38903314313E8C5A963A26 /* Pods_YNMFormattedDate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNMFormattedDate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B9EE70C327A7614C5FB22F /* Pods_YNMFormattedDate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNMFormattedDate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1FF36E0C68F4D6B967E2932 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D1FF36E0C68F4D6B967E2932 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E03D9B2AAA56EE4AB1664EE1 /* Pods-YNMFormattedDate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YNMFormattedDate_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YNMFormattedDate_Tests/Pods-YNMFormattedDate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

@@ -1,0 +1,16 @@
+PODS:
+  - YNMFormattedDate (0.1.0)
+
+DEPENDENCIES:
+  - YNMFormattedDate (from `../`)
+
+EXTERNAL SOURCES:
+  YNMFormattedDate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YNMFormattedDate: 0d8e4ddac5176460e0066fb09b2a0790b6e6fa7e
+
+PODFILE CHECKSUM: fdc46731504e7cf78754b5175889024b3a26131b
+
+COCOAPODS: 1.5.3

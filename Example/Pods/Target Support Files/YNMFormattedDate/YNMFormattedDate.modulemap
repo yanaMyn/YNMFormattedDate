@@ -1,0 +1,6 @@
+framework module YNMFormattedDate {
+  umbrella header "YNMFormattedDate-umbrella.h"
+
+  export *
+  module * { export * }
+}
