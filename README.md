@@ -29,9 +29,9 @@ pod 'YNMFormattedDate'
 > add YNMFormattedDate to your project. reference http://docs.onemobilesdk.aol.com/ios-ad-sdk/adding-frameworks-xcode.html
 
 ```swift
-import YNFormattedDate
+import YNMFormattedDate
 
-var formatDate = YNFormattedDate()
+var formatDate = YNMFormattedDate()
 let dateNow = self.formatDate.formattedDateFromString(dateFormat: "dd/MM/yyyy", dateString: "24/06/2018", withFormat: "MMM dd, yyyy")
 print("today is => \(String(describing: dateNow))")
 ```
