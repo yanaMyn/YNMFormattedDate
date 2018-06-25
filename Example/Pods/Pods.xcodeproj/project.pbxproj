@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EAC837E074570F8BF1BB34105FC690F /* YNMFormattedDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5C468AB185F890D1032C3D609EC53C /* YNMFormattedDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EAC837E074570F8BF1BB34105FC690F /* YNMFormattedDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A80C45639C134710EC652C1EB1935889 /* YNMFormattedDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		295ADCBC32CF9C9948484B08B22ABD7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2D4F3ED4F05F3299834C40C5DB25515E /* YNMFormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2043668724F6F42397EEBFEE092238A /* YNMFormattedDate.swift */; };
 		39BDA691961543E549385B23198D15C1 /* Pods-YNMFormattedDate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 096C53232695FDCACA3D91C923D3567F /* Pods-YNMFormattedDate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B230C4920E0CBC5009D2610 /* YNMFormattedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B230C4820E0CBC5009D2610 /* YNMFormattedDate.swift */; };
 		91E986386A8347FCC2A139244E6B24F2 /* Pods-YNMFormattedDate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF143F55C70A200469539DF730BFA465 /* Pods-YNMFormattedDate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		952D3A9209B94A1440264071642CC22F /* YNMFormattedDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 679BBAF5847BF683B1A829565960A707 /* YNMFormattedDate-dummy.m */; };
 		95E0A724A64FA2E290729784B2BC532C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		97115975AD6CAB164C915CCBAE7A330E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B6BEB1FAFEF2DBF8A6D9F6E7A172FC72 /* YNMFormattedDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACEEAEDAF66B0153156CA1E9DB7E3BA /* YNMFormattedDate-dummy.m */; };
 		D42F48C4D884C94C7D29B2FBA39C80C7 /* Pods-YNMFormattedDate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF698E620616776829B4EC9F15FCEF3 /* Pods-YNMFormattedDate_Tests-dummy.m */; };
 		D5CFAA0B6CF4617FCA478F2FB30FD3F0 /* Pods-YNMFormattedDate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5383A612C945D359019F3B4DA635FBD2 /* Pods-YNMFormattedDate_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -38,40 +38,37 @@
 
 /* Begin PBXFileReference section */
 		096C53232695FDCACA3D91C923D3567F /* Pods-YNMFormattedDate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YNMFormattedDate_Example-umbrella.h"; sourceTree = "<group>"; };
-		0BA04A065D70E628D160EE8500AD958F /* YNMFormattedDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YNMFormattedDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1AAC6EBA3595B0C02CF7963AFBCD282E /* YNMFormattedDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YNMFormattedDate.modulemap; sourceTree = "<group>"; };
-		298195BC02F3BF6F13CB77000101EF39 /* Pods_YNMFormattedDate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNMFormattedDate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BA04A065D70E628D160EE8500AD958F /* YNMFormattedDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YNMFormattedDate.framework; path = YNMFormattedDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BD815F85A5BD09B1A8278D4ECE35ABE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		298195BC02F3BF6F13CB77000101EF39 /* Pods_YNMFormattedDate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YNMFormattedDate_Example.framework; path = "Pods-YNMFormattedDate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42439D7251CACA812FE8B9C673A7C6B7 /* Pods-YNMFormattedDate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YNMFormattedDate_Example-resources.sh"; sourceTree = "<group>"; };
 		5383A612C945D359019F3B4DA635FBD2 /* Pods-YNMFormattedDate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YNMFormattedDate_Example-dummy.m"; sourceTree = "<group>"; };
-		5ACBC2384E6926F49A3082DB088C9B16 /* YNMFormattedDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNMFormattedDate-prefix.pch"; sourceTree = "<group>"; };
 		604C63980F942821BED533798580D50B /* Pods-YNMFormattedDate_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YNMFormattedDate_Tests.modulemap"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		698E4965B37744F53699E3CC073A90BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6D4D24F2AB05D7AD82C7F5B63DB8F2FC /* Pods_YNMFormattedDate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YNMFormattedDate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		679BBAF5847BF683B1A829565960A707 /* YNMFormattedDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YNMFormattedDate-dummy.m"; sourceTree = "<group>"; };
+		6D4D24F2AB05D7AD82C7F5B63DB8F2FC /* Pods_YNMFormattedDate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YNMFormattedDate_Tests.framework; path = "Pods-YNMFormattedDate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E19A572CA3FF4BF3D1429DE869F7BE3 /* Pods-YNMFormattedDate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YNMFormattedDate_Example.modulemap"; sourceTree = "<group>"; };
 		6E6CBA3FC205C5DD4D2E7767B027C3C3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76795715B47E83474D7BF409204C5B22 /* Pods-YNMFormattedDate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YNMFormattedDate_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7B230C4820E0CBC5009D2610 /* YNMFormattedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = YNMFormattedDate.swift; path = YNMFormattedDate/Classes/YNMFormattedDate.swift; sourceTree = "<group>"; };
 		7FF698E620616776829B4EC9F15FCEF3 /* Pods-YNMFormattedDate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YNMFormattedDate_Tests-dummy.m"; sourceTree = "<group>"; };
 		82FEFB58F8D29E591A76C0F4B8E37808 /* Pods-YNMFormattedDate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YNMFormattedDate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		898FBEBAF5FD637695AF23F323659E62 /* Pods-YNMFormattedDate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YNMFormattedDate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		89ABAE79739CBD974B1A283CD0C161BC /* Pods-YNMFormattedDate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YNMFormattedDate_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9ACEEAEDAF66B0153156CA1E9DB7E3BA /* YNMFormattedDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YNMFormattedDate-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BC97F0BE59A22C29A974BF70CCE77BC /* Pods-YNMFormattedDate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YNMFormattedDate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D52BEC1A42111D52B88D07DBBEE25CE /* Pods-YNMFormattedDate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YNMFormattedDate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A2EECE138D2F3835B6D91271D93C51AE /* Pods-YNMFormattedDate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YNMFormattedDate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A69B60E1D3293958845F03D106653BD6 /* YNMFormattedDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YNMFormattedDate.xcconfig; sourceTree = "<group>"; };
+		A80C45639C134710EC652C1EB1935889 /* YNMFormattedDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNMFormattedDate-umbrella.h"; sourceTree = "<group>"; };
 		AC9C5BCDB5DC9139F66214CA3CFD7646 /* Pods-YNMFormattedDate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YNMFormattedDate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B4A07D255D57E644F09865BA8973E4CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B57D72241F67DA4193EF0226E5BFECF7 /* Pods-YNMFormattedDate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YNMFormattedDate_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BA5C468AB185F890D1032C3D609EC53C /* YNMFormattedDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNMFormattedDate-umbrella.h"; sourceTree = "<group>"; };
+		BFDD6EC21957709DC8043FDB13E510B5 /* YNMFormattedDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YNMFormattedDate.xcconfig; sourceTree = "<group>"; };
 		D2FB927D57F36B0CF5ED79B1D9C3984C /* Pods-YNMFormattedDate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YNMFormattedDate_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DFFDBDE5A181779770B1B4051D176EB1 /* Pods-YNMFormattedDate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YNMFormattedDate_Example-frameworks.sh"; sourceTree = "<group>"; };
 		E202856A13AF39A8AA7FC1A3173998DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E66FDECAD0402A3A49058CB7ADE1FB63 /* YNMFormattedDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YNMFormattedDate-prefix.pch"; sourceTree = "<group>"; };
 		EF143F55C70A200469539DF730BFA465 /* Pods-YNMFormattedDate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YNMFormattedDate_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F404118832F377DCED5500090B77128B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		F476A8FA1043DFB845FC9D2E71395218 /* YNMFormattedDate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YNMFormattedDate.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F04CF4EAA3FC18EDB46246391F35D792 /* YNMFormattedDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YNMFormattedDate.modulemap; sourceTree = "<group>"; };
+		F2043668724F6F42397EEBFEE092238A /* YNMFormattedDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YNMFormattedDate.swift; path = YNMFormattedDate/Classes/YNMFormattedDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,23 +99,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1BEC2A5B85304F85275E978C619297EB /* YNMFormattedDate */ = {
+		6A58A81E72E289BB4973235113EDC78A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AEA03DDD57B9B2CE50855CB0F0FAF863 /* Pod */,
-				D3167FC30397002E4CB016E9E567E993 /* Support Files */,
-				7B230C4820E0CBC5009D2610 /* YNMFormattedDate.swift */,
+				0BD815F85A5BD09B1A8278D4ECE35ABE /* Info.plist */,
+				F04CF4EAA3FC18EDB46246391F35D792 /* YNMFormattedDate.modulemap */,
+				BFDD6EC21957709DC8043FDB13E510B5 /* YNMFormattedDate.xcconfig */,
+				679BBAF5847BF683B1A829565960A707 /* YNMFormattedDate-dummy.m */,
+				E66FDECAD0402A3A49058CB7ADE1FB63 /* YNMFormattedDate-prefix.pch */,
+				A80C45639C134710EC652C1EB1935889 /* YNMFormattedDate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YNMFormattedDate";
+			sourceTree = "<group>";
+		};
+		78F66E4A70A58F1DC9C8E3DC2E00A959 /* YNMFormattedDate */ = {
+			isa = PBXGroup;
+			children = (
+				F2043668724F6F42397EEBFEE092238A /* YNMFormattedDate.swift */,
+				6A58A81E72E289BB4973235113EDC78A /* Support Files */,
 			);
 			name = YNMFormattedDate;
-			path = ../..;
+			path = YNMFormattedDate;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C6D713A209A4C0396D1891F6351625EB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				AA56A0FEBAA4A821D9905C0500527B24 /* Pods */,
 				E39B854A595014974EA1B54AA73A92FC /* Products */,
 				8D440A0B49F31E5A68D0E654A8BCDE80 /* Targets Support Files */,
 			);
@@ -133,14 +143,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AEA03DDD57B9B2CE50855CB0F0FAF863 /* Pod */ = {
+		AA56A0FEBAA4A821D9905C0500527B24 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F404118832F377DCED5500090B77128B /* LICENSE */,
-				698E4965B37744F53699E3CC073A90BA /* README.md */,
-				F476A8FA1043DFB845FC9D2E71395218 /* YNMFormattedDate.podspec */,
+				78F66E4A70A58F1DC9C8E3DC2E00A959 /* YNMFormattedDate */,
 			);
-			name = Pod;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -149,28 +157,6 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C6D713A209A4C0396D1891F6351625EB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1BEC2A5B85304F85275E978C619297EB /* YNMFormattedDate */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D3167FC30397002E4CB016E9E567E993 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B4A07D255D57E644F09865BA8973E4CE /* Info.plist */,
-				1AAC6EBA3595B0C02CF7963AFBCD282E /* YNMFormattedDate.modulemap */,
-				A69B60E1D3293958845F03D106653BD6 /* YNMFormattedDate.xcconfig */,
-				9ACEEAEDAF66B0153156CA1E9DB7E3BA /* YNMFormattedDate-dummy.m */,
-				5ACBC2384E6926F49A3082DB088C9B16 /* YNMFormattedDate-prefix.pch */,
-				BA5C468AB185F890D1032C3D609EC53C /* YNMFormattedDate-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YNMFormattedDate";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -297,7 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6CF4B2408AF35F772225BDB4C66AE5F /* Build configuration list for PBXNativeTarget "YNMFormattedDate" */;
 			buildPhases = (
-				C503739C5C92018F1881279F8E16E6B7 /* Sources */,
+				B8CB40DDA5521B3DF4BB154B3E8EB210 /* Sources */,
 				8A5BC2A36B85ABE526F41D586A803B1B /* Frameworks */,
 				CC57A39182AB03B9F4C442E5D5511C7D /* Headers */,
 			);
@@ -318,11 +304,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					F9C02FEFE2752B3DDE68C17A443DFA0C = {
-						LastSwiftMigration = 0930;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,15 +338,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5CFAA0B6CF4617FCA478F2FB30FD3F0 /* Pods-YNMFormattedDate_Example-dummy.m in Sources */,
-				7B230C4920E0CBC5009D2610 /* YNMFormattedDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C503739C5C92018F1881279F8E16E6B7 /* Sources */ = {
+		B8CB40DDA5521B3DF4BB154B3E8EB210 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6BEB1FAFEF2DBF8A6D9F6E7A172FC72 /* YNMFormattedDate-dummy.m in Sources */,
+				952D3A9209B94A1440264071642CC22F /* YNMFormattedDate-dummy.m in Sources */,
+				2D4F3ED4F05F3299834C40C5DB25515E /* YNMFormattedDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +370,7 @@
 /* Begin XCBuildConfiguration section */
 		705455C112C9BC319C0AA1757D659D66 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A69B60E1D3293958845F03D106653BD6 /* YNMFormattedDate.xcconfig */;
+			baseConfigurationReference = BFDD6EC21957709DC8043FDB13E510B5 /* YNMFormattedDate.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -487,7 +468,6 @@
 			baseConfigurationReference = D2FB927D57F36B0CF5ED79B1D9C3984C /* Pods-YNMFormattedDate_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -512,7 +492,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -616,7 +595,6 @@
 			baseConfigurationReference = 9D52BEC1A42111D52B88D07DBBEE25CE /* Pods-YNMFormattedDate_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -640,7 +618,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -650,7 +627,7 @@
 		};
 		D111E62B7330D6139CCF434270E6C4D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A69B60E1D3293958845F03D106653BD6 /* YNMFormattedDate.xcconfig */;
+			baseConfigurationReference = BFDD6EC21957709DC8043FDB13E510B5 /* YNMFormattedDate.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'YNMFormattedDate_Example' do
-  pod 'YNMFormattedDate', :path => '../'
+  pod 'YNMFormattedDate'
 
   target 'YNMFormattedDate_Tests' do
     inherit! :search_paths

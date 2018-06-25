@@ -2,15 +2,15 @@ PODS:
   - YNMFormattedDate (0.1.0)
 
 DEPENDENCIES:
-  - YNMFormattedDate (from `../`)
+  - YNMFormattedDate
 
-EXTERNAL SOURCES:
-  YNMFormattedDate:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YNMFormattedDate
 
 SPEC CHECKSUMS:
-  YNMFormattedDate: 0d8e4ddac5176460e0066fb09b2a0790b6e6fa7e
+  YNMFormattedDate: ecaf65193d631153ecfb7c1cb7f49b3784e1c042
 
-PODFILE CHECKSUM: fdc46731504e7cf78754b5175889024b3a26131b
+PODFILE CHECKSUM: d07d4f0733104e08bd481161b1ee7150d02c713c
 
 COCOAPODS: 1.5.3
